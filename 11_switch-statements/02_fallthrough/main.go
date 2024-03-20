@@ -8,6 +8,7 @@ func main() {
 		fmt.Println("Wassup Tim")
 	case "Jenny":
 		fmt.Println("Wassup Jenny")
+		fallthrough
 	case "Marcus":
 		fmt.Println("Wassup Marcus")
 		fallthrough
