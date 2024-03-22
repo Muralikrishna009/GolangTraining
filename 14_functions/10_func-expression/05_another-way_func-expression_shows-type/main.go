@@ -3,8 +3,9 @@ package main
 import "fmt"
 
 func makeGreeter() func() string {
+	x := 0
 	return func() string {
-		return "Hello world!"
+		return "Hello world!" + string(rune(x))
 	}
 }
 
